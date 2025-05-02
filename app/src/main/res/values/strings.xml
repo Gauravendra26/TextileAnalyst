@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Seed Act Seed Analyst</string>
+
+
+    <string name="back"><u>back</u></string>
+    <string name="close"><u>close</u></string>
+    <string name="resendotp"><u>Resend OTP</u></string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="BasicInformation"><u>Basic Information</u></string>
+    <string name="TechnicalObservations"><u>Technical Observations</u></string>
+    <string name="PebrineIncidenceDetails"><u>Pebrine Incidence Details</u></string>
+    <string name="RecordMaintenance"><u>Record Maintenance</u></string>
+    <string name="QualityCertification"><u>Quality Certification</u></string>
+    <string name="ReportSubmission"><u>Report Submission</u></string>
+    <string name="Additionalinfo"><u>Additional info</u></string>
+    <string name="ChawkiMulberryGarden"><u>Chawki Mulberry Garden</u></string>
+    <string name="CRCDetails"><u>CRC Details</u></string>
+
+
+    <string-array name="select">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Short">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Irregular</item>
+    </string-array>
+
+
+    <string-array name="Available">
+        <item>Select</item>
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+    <string-array name="Maintained">
+        <item>Select</item>
+        <item>Maintained</item>
+        <item>Not-Maintained</item>
+    </string-array>
+
+
+    <string-array name="Morethan5">
+        <item>Select</item>
+        <item>Maintained</item>
+        <item>Partially Maintained</item>
+        <item>Not Maintained</item>
+    </string-array>
+    <string-array name="Less">
+        <item>Select</item>
+        <item>More than 5</item>
+        <item>3 to 5</item>
+        <item>Less than 3</item>
+    </string-array>
+    <string-array name="V1">
+        <item>Select</item>
+        <item>V1</item>
+        <item>G2</item>
+        <item>MR2</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="FullyPestWeedFree">
+        <item>Select</item>
+        <item>Fully Pest &amp; Weed Free</item>
+        <item>Partially Pest &amp; Weed Free</item>
+        <item>No Pests but Weedy</item>
+        <item>No Weeds but Pest Infested</item>
+    </string-array>
+
+
+    <string-array name="Sufficient">
+        <item>Select</item>
+        <item>Sufficient</item>
+        <item>Insufficient</item>
+    </string-array>
+
+    <string-array name="Insufficient">
+        <item>Select</item>
+        <item>Sufficient</item>
+        <item>Insufficient</item>
+        <item>Partial</item>
+    </string-array>
+    <string-array name="Partial">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>Partial</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="GCM">
+        <item>Select</item>
+        <item>GCM</item>
+        <item>RSCP</item>
+        <item>URSCP</item>
+    </string-array>
+
+    <string-array name="CRCs">
+        <item>Select</item>
+        <item>Registered CRCs</item>
+        <item>Farmers</item>
+        <item>Unregistered CRCs</item>
+    </string-array>
+
+    <string-array name="Random">
+        <item>Select</item>
+        <item>Regular</item>
+        <item>Random</item>
+        <item>Not Practised</item>
+    </string-array>
+
+    <string-array name="Followed">
+        <item>Select</item>
+        <item>Followed</item>
+        <item>Not Followed</item>
+    </string-array>
+
+    <string-array name="Uptodate">
+        <item>Select</item>
+        <item>Up to date</item>
+        <item>Not Up to date</item>
+        <item>Not maintained</item>
+    </string-array>
+
+    <string-array name="Staggered">
+        <item>Select</item>
+        <item>Uniform &amp; Synchronised in single day</item>
+        <item>Staggered</item>
+    </string-array>
+
+    <string-array name="Uniform">
+        <item>Select</item>
+        <item>Uniform</item>
+        <item>Non-Uniform</item>
+    </string-array>
+
+    <string-array name="Regular">
+        <item>Select</item>
+        <item>Regular</item>
+        <item>Irrgeular</item>
+    </string-array>
+    <string-array name="Crowdy">
+        <item>Select</item>
+        <item>As Recommended</item>
+        <item>Crowdy</item>
+    </string-array>
+    <string-array name="AsRecommended">
+        <item>Select</item>
+        <item>As Recommended</item>
+        <item>As Recommended</item>
+    </string-array>
+    <string-array name="Irrgeular">
+        <item>Select</item>
+        <item>Regular</item>
+        <item>Irrgeular</item>
+        <item>Not Done</item>
+    </string-array>
+
+
+    <string-array name="Discontinued">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Discontinued</item>
+        <item>Lapsed</item>
+
+    </string-array>
+    <string-array name="Excellent">
+        <item>Select</item>
+        <item>Excellent</item>
+        <item>Very Good</item>
+        <item>Average</item>
+        <item>Poor</item>
+
+    </string-array>
+    <string-array name="Moderate">
+        <item>Select</item>
+        <item>Very Good</item>
+        <item>Moderate</item>
+        <item>Poor</item>
+        <item>Nil</item>
+    </string-array>
+    <string-array name="Poor">
+        <item>Select</item>
+        <item>Very Good</item>
+        <item>Moderate</item>
+        <item>Poor</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

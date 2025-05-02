@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ettext">#BC313333</color>
+    <color name="etext">#BCA9A9AA</color>
+    <color name="logincolor">#2dd47a</color>
+    <color name="resendotpcolor">#FF5722</color>
+    <color name="emptycolor">#FDEFF4</color>
+    <color name="emptyBack">#41C7C8CA</color>
+    <color name="profiletextcolor">#707282</color>
+    <color name="proceedcolor">#109cf1</color>
+    <color name="not_evalutedcolor">#F83135</color>
+    <color name="previewText">#AE282C</color>
+    <color name="line">#B8B8B8</color>
+    <color name="darkgreen">#1e5260</color>
+    <color name="LoginPage">#008b6e</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

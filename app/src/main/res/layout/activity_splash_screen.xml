@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    tools:context=".Splash_screen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/upper"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSplash"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardElevation="@dimen/_5sdp"
+                app:cardCornerRadius="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_50sdp"
+
+                >
+                <ImageView
+                    android:id="@+id/imgSplashLogo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo"
+
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvSplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="केन्द्रीय बीज अधिनियम"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                android:layout_marginTop="@dimen/_15sdp"
+                />
+
+            <TextView
+                android:id="@+id/tvSplash1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                android:text="CENTRAL SEED ACT"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Application For Inspections of Production Centers of Regd. Seed Producers &amp; Chawki Rearers"
+                android:textColor="#ecd1a2"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:fontFamily="@font/proxima"
+                android:layout_marginTop="@dimen/_15sdp"
+                />
+            <TextView
+                android:id="@+id/tvMes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Under Central Silk Board (Amendment), 2007 Act, Section 8H"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:fontFamily="@font/proxima"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/middle"
+            android:layout_marginVertical="@dimen/_15sdp"
+            android:background="@drawable/shape_user_detail"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:weightSum="3"
+                android:gravity="center"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img1" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img2" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img3" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img4" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img5" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+
+                        android:src="@drawable/img6" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lower"
+            >
+            <TextView
+                android:id="@+id/tvcent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="राष्ट्रीय रेशमकीट बीज संगठन National Silkworm Seed Organisation"
+                android:textColor="#fdfcb6"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:gravity="center"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+            <TextView
+                android:id="@+id/tvcent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="केन्द्रीय रेशम बोर्ड Central Silk Board"
+                android:textColor="#fdfcb6"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                />
+            <TextView
+                android:id="@+id/tvcent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="वस्त्र मंत्रालय Ministry of Textiles"
+                android:textColor="#fdfcb6"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                />
+            <TextView
+                android:id="@+id/tvcent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="भारत सरकार Govt. of India"
+                android:textColor="#fdfcb6"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="@font/proxima"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
